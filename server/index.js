@@ -75,8 +75,9 @@ io.on('connection', (socket) => {
   // 6. Send current room state to the NEW player with 'roomState' event
   
   socket.on('joinRoom', ({ roomId, username }) => {
-    // YOUR CODE HERE - Follow the steps above!
     
+    // YOUR CODE HERE - Follow the steps above!
+  
     // Step 1: Join the Socket.io room
     
     // Step 2: Store data on socket for later
